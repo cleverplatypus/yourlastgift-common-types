@@ -1,0 +1,17 @@
+{
+  "name": "@yourlastgift/common-types",
+  "scripts": {
+    "watch": "nodemon --watch src -e ts --exec 'yalc publish --private --push'"
+  },
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "author": "Nicola Dal Pont",
+  "license": "MIT",
+  "private": true,
+  "peerDependencies": {
+    "@cleverplatypus/signals.ts": "^1.0.5",
+    "moment-timezone": "^0.5.45"
+  },
+  "dependencies": {
+  }
+}
