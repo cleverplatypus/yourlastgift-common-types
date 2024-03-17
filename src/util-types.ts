@@ -15,6 +15,8 @@ export type MomentTimeRange = {
   }
   
 export type I18NString = Record<SupportedLang, string>
+export type I18NStrings = Record<SupportedLang, string[]>
+export type I18NAuthoredHTML = Record<SupportedLang, { def : any, html : string }>
 
 export type SomeError = Error | PromiseRejectionEvent
 

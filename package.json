@@ -1,9 +1,9 @@
 {
   "name": "@yourlastgift/common-types",
   "scripts": {
-    "watch": "nodemon --watch src -e ts --exec 'yalc publish --private --push'"
+    "watch": "nodemon --watch src --watch package.json -e ts,json --exec 'yalc publish --private --push'"
   },
-  "version": "1.0.0",
+  "version": "1.0.5",
   "main": "src/index.ts",
   "author": "Nicola Dal Pont",
   "license": "MIT",

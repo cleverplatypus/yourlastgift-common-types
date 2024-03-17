@@ -1,4 +1,4 @@
-export * from './blog-types.ts'
+export * from './article-post-types.ts'
 export * from './subscription-types.ts'
 export * from './user-types.ts'
 export * from './util-types.ts'
