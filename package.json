@@ -10,7 +10,7 @@
   "private": true,
   "peerDependencies": {
     "@cleverplatypus/signals.ts": "^1.0.5",
-    "moment-timezone": "^0.5.45"
+    "moment": "^0.5.45"
   },
   "dependencies": {
   }
