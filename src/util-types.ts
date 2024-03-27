@@ -39,4 +39,6 @@ export type DirtableModel = {
   isRevertEnabled?: boolean
 }
 
+export type AnyJSONValue = string | number | boolean | null | AnyJSONValue[] | { [key: string]: AnyJSONValue }
+
 export type AnyVoidFunction = (...args: any[]) => void
